@@ -1,24 +1,24 @@
 
-:global body:not(.ic-no-flex-layout):not(.embedded) .ic-Layout-contentMain {
+body:not(.ic-no-flex-layout):not(.embedded) .ic-Layout-contentMain {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   height: 100%;
 }
 
-:global body:not(.ic-no-flex-layout):not(.embedded) div#doc_preview {
+body:not(.ic-no-flex-layout):not(.embedded) div#doc_preview {
   flex-grow: 1;
   height: initial !important;
 }
 
-:global body:not(.ic-no-flex-layout):not(.embedded) div#doc_preview > div {
+body:not(.ic-no-flex-layout):not(.embedded) div#doc_preview > div {
   height: 100% !important;
   resize: initial !important;
   overflow: hidden !important;
   border: none !important;
 }
 
-:global body:not(.ic-no-flex-layout):not(.embedded) div#doc_preview > div > iframe {
+body:not(.ic-no-flex-layout):not(.embedded) div#doc_preview > div > iframe {
   height: 100% !important;
   min-height: initial !important;
 }
